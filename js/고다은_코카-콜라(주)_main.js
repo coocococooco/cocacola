@@ -12,7 +12,7 @@
       if(wd >= 1024){
         
         // 헤더
-             navLa.click(function(){
+             navLi.click(function(){
                  navLi.toggleClass('on');
                  $('.header>h1').toggleClass('on');
                  navWrap.toggleClass('show');
