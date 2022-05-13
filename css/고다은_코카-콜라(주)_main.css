@@ -726,17 +726,33 @@ div.ftrWrap>div.footer>div.texts p{
     font-size: 14px;
     line-height: 20px;
 }
-div.ftrWrap>div.footer>div.texts select{
+div.ftrWrap>div.footer>div.texts .btn{
     margin-top: 20px;
     background-color: #000;
     height: 40px;
     width: 150px;
     color: #fff;
+    border: #fff 1px solid;
+    line-height: 40px;
+    padding: 0 5px;
+    position: relative;
 }
-div.ftrWrap>div.footer>div.texts select>option{
+div.ftrWrap>div.footer>div.texts .btn>h4{
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+}
+div.ftrWrap>div.footer>div.texts .btn>h4>a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 0;
+}
+/* div.ftrWrap>div.footer>div.texts select>option{
     line-height: 40px;
     display: block;
-}
+} */
 div.snsWrap{
     background-color: #9f0028;
 }
