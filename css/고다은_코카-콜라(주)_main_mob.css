@@ -57,7 +57,7 @@ div.mainWrap>div.main>div.mainView {
     height: 320px;
 }
 div.mainWrap>div.main>div.mainView>ul.paging {
-    width: 32%;
+    width: 140px;
 }
 div.mainWrap>div.main>div.mainView>ul.paging>li.on {
     width: 60px;
